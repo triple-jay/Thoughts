@@ -148,7 +148,7 @@ class ViewController: UIViewController {
                             }
                         }
                     }
-    
+    // Handles sign up
     @objc func signUp() {
         if (emailField.text?.isEmpty)! || (passwordField.text?.isEmpty)! || (usernameField.text?.isEmpty)! {
             createAlert(message: "One or more fields are empty.")
