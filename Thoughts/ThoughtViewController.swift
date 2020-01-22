@@ -13,8 +13,20 @@ import Firebase
 class ThoughtViewController: UIViewController {
     
     var tableView: UITableView!
-    var thoughts = [Thoughts]()
-    var savedThoughts = [Thoughts]()
+    var thoughts = [Thoughts]() {
+        didSet {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
+    var savedThoughts = [Thoughts]() {
+        didSet {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
     var writeButton: UIBarButtonItem!
     var reloadButton: UIBarButtonItem!
     var profileButton: UIBarButtonItem!
