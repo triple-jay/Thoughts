@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         usernameField.layer.cornerRadius = 5
         usernameField.font = UIFont.systemFont(ofSize: 15)
         usernameField.textColor = .black
-        usernameField.placeholder = "Username"
+        usernameField.placeholder = "Username (only for sign-up)"
         usernameField.textAlignment = .center
         view.addSubview(usernameField)
         

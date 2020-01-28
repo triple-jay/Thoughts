@@ -31,6 +31,7 @@ class ThoughtViewController: UIViewController {
     var reloadButton: UIBarButtonItem!
     var profileButton: UIBarButtonItem!
     var searchController: UISearchController!
+    var timer: Timer!
     
     let reuseIdentifier = "reuseIdentifier"
     let cellHeight: CGFloat = 200
@@ -79,6 +80,8 @@ class ThoughtViewController: UIViewController {
         searchController.dimsBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = "Search thoughts (case-sensitive)"
         searchController.searchBar.sizeToFit()
+        
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(reload), userInfo: nil, repeats: true)
 
         setupConstraints()
 
