@@ -10,6 +10,7 @@
 		2863870723C67AE300157AD2 /* NewThoughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863870623C67AE300157AD2 /* NewThoughtViewController.swift */; };
 		2863870F23CE699C00157AD2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863870E23CE699C00157AD2 /* ProfileViewController.swift */; };
 		2863874223D658D400157AD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2863874123D658D400157AD2 /* GoogleService-Info.plist */; };
+		286C367323F86CC200E340BC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C367223F86CC200E340BC /* RootViewController.swift */; };
 		28AFCB8323C5891C00CF178F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFCB8223C5891C00CF178F /* AppDelegate.swift */; };
 		28AFCB8723C5891C00CF178F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFCB8623C5891C00CF178F /* ViewController.swift */; };
 		28AFCB8C23C5891D00CF178F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AFCB8B23C5891D00CF178F /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		2863870623C67AE300157AD2 /* NewThoughtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThoughtViewController.swift; sourceTree = "<group>"; };
 		2863870E23CE699C00157AD2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2863874123D658D400157AD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		286C367223F86CC200E340BC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		28AFCB7F23C5891C00CF178F /* Thoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thoughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AFCB8223C5891C00CF178F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AFCB8623C5891C00CF178F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				28AFCB8623C5891C00CF178F /* ViewController.swift */,
 				28AFCB9823C590C400CF178F /* ThoughtViewController.swift */,
 				2863870623C67AE300157AD2 /* NewThoughtViewController.swift */,
+				286C367223F86CC200E340BC /* RootViewController.swift */,
 				2863870E23CE699C00157AD2 /* ProfileViewController.swift */,
 				28AFCB9623C5908900CF178F /* Thoughts.swift */,
 				28AFCB9A23C5911E00CF178F /* ThoughtsTableViewCell.swift */,
@@ -242,6 +245,7 @@
 				28AFCB9B23C5911E00CF178F /* ThoughtsTableViewCell.swift in Sources */,
 				2863870723C67AE300157AD2 /* NewThoughtViewController.swift in Sources */,
 				28AFCB9723C5908900CF178F /* Thoughts.swift in Sources */,
+				286C367323F86CC200E340BC /* RootViewController.swift in Sources */,
 				28AFCB9923C590C400CF178F /* ThoughtViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

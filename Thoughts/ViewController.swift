@@ -130,7 +130,7 @@ class ViewController: UIViewController {
     
     @objc func loginWithCredentials() {
         login {
-            let viewController = ThoughtViewController()
+            let viewController = RootViewController()
             self.navigationController?.pushViewController(viewController, animated: true)
         }
     }

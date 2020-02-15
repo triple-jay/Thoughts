@@ -60,12 +60,13 @@ class ThoughtViewController: UIViewController {
         
         writeButton = UIBarButtonItem(title: "Compose", style: .plain, target: self, action: #selector(newThought))
         writeButton.image = UIImage(named: "write")
+        navigationItem.rightBarButtonItem = writeButton
         
         reloadButton = UIBarButtonItem(title: "Reload", style: .plain, target: self, action: #selector(reload))
         navigationItem.leftBarButtonItem = reloadButton
                 
-        profileButton = UIBarButtonItem(title: "Profile", style: .plain, target: self, action: #selector(profile))
-        navigationItem.rightBarButtonItems = [profileButton, writeButton]
+//        profileButton = UIBarButtonItem(title: "Profile", style: .plain, target: self, action: #selector(profile))
+//        navigationItem.rightBarButtonItems = [profileButton, writeButton]
 
         tableView = UITableView()
         tableView.register(ThoughtsTableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
