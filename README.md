@@ -2,13 +2,13 @@
 ### By Jeremy Jung
 A social media app for users to share their thoughts with users across the world. Developed by Jeremy Jung in 2019.
 
-![Screenshot1](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.45.46.png)
+![Screenshot1](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.45.46.png){width=25%}
 
-![Screenshot2](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.45.53.png)
+![Screenshot2](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.45.53.png){width=25%}
 
-![Screenshot3](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.45.59.png)
+![Screenshot3](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.45.59.png){width=25%}
 
-![Screenshot4](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.46.18.png)
+![Screenshot4](https://github.com/triple-jay/Thoughts/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20(2nd%20generation)%20-%202020-08-29%20at%2014.46.18.png){width=25%}
 
 ### Features
 Current features:
