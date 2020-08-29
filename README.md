@@ -17,8 +17,7 @@ Future ideas:
 * Improve UI/UX design
 
 ### Development
-Used Swift 5 and Xcode for development.
-Used Google Firebase for authentication, storage, and backend.
+Used Swift 5 and Xcode for development. Used Google Firebase for authentication, storage, and backend.
 
 ### Future updates
 As of now, this project has been halted in favor of an app I have been developing, CashPal, which is now live on the App Store: https://www.tinyurl.com/downloadcashpal. If I continue this project, I will push new updates to this repository.
